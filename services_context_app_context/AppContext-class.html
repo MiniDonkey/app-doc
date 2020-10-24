@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the AppContext class from the app_context library, for the Dart programming language.">
+  <title>AppContext class - app_context library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+  <!-- header placeholder -->
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">photochatapp</a></li>
+    <li><a href="services_context_app_context/services_context_app_context-library.html">app_context</a></li>
+    <li class="self-crumb">AppContext class</li>
+  </ol>
+  <div class="self-name">AppContext</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="index.html">photochatapp</a></li>
+      <li><a href="services_context_app_context/services_context_app_context-library.html">app_context</a></li>
+      <li class="self-crumb">AppContext class</li>
+    </ol>
+    
+    <h5>app_context library</h5>
+    <ol>
+      <li class="section-title"><a href="services_context_app_context/services_context_app_context-library.html#classes">Classes</a></li>
+      <li><a href="services_context_app_context/AppContext-class.html">AppContext</a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    </ol>
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div>  <div id="external-links" class="btn-group"><a title="View source code" class="source-link" href="https://github.com/tianhaoz95/photochat/blob/master/photochatapp/lib/services/context/app_context.dart#L16"><i class="material-icons">description</i></a></div>
+<h1><span class="kind-class">AppContext</span> class   <span class="category services cp-3 linked" title="This is part of the Services Topic."><a href="topics/Services-topic.html">Services</a></span>
+</h1></div>
+
+    <section class="desc markdown">
+      <p>App Context</p>
+<p>The world state of the app for information that
+is useful for the entire application. Also, this
+is a good place to put config that user cannot and
+should not change. For example, if the app is
+running as an integration test.</p>
+    </section>
+    
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="AppContext" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/AppContext.html">AppContext</a></span><span class="signature">({<span class="parameter" id="-param-appRunningStateOverride"><span class="type-annotation"><a href="services_states_app_running_states/AppRunningState-class.html">AppRunningState</a></span> <span class="parameter-name">appRunningStateOverride</span></span> })</span>
+        </dt>
+        <dd>
+          
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="appRunningState" class="property">
+          <span class="name"><a href="services_context_app_context/AppContext/appRunningState.html">appRunningState</a></span>
+          <span class="signature">&#8596; <a href="services_states_app_running_states/AppRunningState-class.html">AppRunningState</a></span>         
+        </dt>
+        <dd>
+          The state the app is running with like development,
+integration test or production which should never
+change while the app is running.
+TODO(#54): change it to final and required.
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="loadingState" class="property">
+          <span class="name"><a href="services_context_app_context/AppContext/loadingState.html">loadingState</a></span>
+          <span class="signature">&#8596; <a href="services_states_loading_states/LoadingState-class.html">LoadingState</a></span>         
+        </dt>
+        <dd>
+          The state of the app context
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="platformState" class="property">
+          <span class="name"><a href="services_context_app_context/AppContext/platformState.html">platformState</a></span>
+          <span class="signature">&#8596; <a href="services_states_platform_states/PlatformState-class.html">PlatformState</a></span>         
+        </dt>
+        <dd>
+          The platform the app is running on.
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="hashCode" class="property inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/hashCode.html">hashCode</a></span>
+          <span class="signature">&#8594; int</span>         
+        </dt>
+        <dd class="inherited">
+          The hash code for this object. <a href="services_context_app_context/AppContext/hashCode.html">[...]</a>
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="hasListeners" class="property inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/hasListeners.html">hasListeners</a></span>
+          <span class="signature">&#8594; bool</span>         
+        </dt>
+        <dd class="inherited">
+          Whether any listeners are currently registered. <a href="services_context_app_context/AppContext/hasListeners.html">[...]</a>
+                  <div class="features">@protected, read-only, inherited</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&#8594; Type</span>         
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object.
+                  <div class="features">read-only, inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="configContext" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/configContext.html">configContext</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd>
+          Initializes <a href="services_context_app_context/AppContext-class.html">AppContext</a> in ctor with the input
+arguments.
+                  
+</dd>
+        <dt id="configProdContext" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/configProdContext.html">configProdContext</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd>
+          Initializes <a href="services_context_app_context/AppContext-class.html">AppContext</a> with production config
+                  
+</dd>
+        <dt id="configUnittestContext" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/configUnittestContext.html">configUnittestContext</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd>
+          Initializes <a href="services_context_app_context/AppContext-class.html">AppContext</a> with unit test config
+                  
+</dd>
+        <dt id="getAppRunningState" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/getAppRunningState.html">getAppRunningState</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="services_states_app_running_states/AppRunningState-class.html">AppRunningState</a></span>
+          </span>
+                  </dt>
+        <dd>
+          
+                  
+</dd>
+        <dt id="initializeContext" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/initializeContext.html">initializeContext</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; Future<span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          Initializes the entire <a href="services_context_app_context/AppContext-class.html">AppContext</a>
+with all async initializers.
+                  
+</dd>
+        <dt id="initializeDeviceType" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/initializeDeviceType.html">initializeDeviceType</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; Future<span class="signature">&lt;<wbr><span class="type-parameter">void</span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+          Initializes the platform the app is
+running on at the start of the app.
+This method is normally called within
+<a href="services_context_app_context/AppContext/initializeContext.html">initializeContext</a> and usually not
+called directly.
+                  
+</dd>
+        <dt id="isIos" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/isIos.html">isIos</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+                  </dt>
+        <dd>
+          Checks if the current app is running on the
+iOS ecosystem.
+                  
+</dd>
+        <dt id="isIpad" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/isIpad.html">isIpad</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+                  </dt>
+        <dd>
+          Checks if the current app is running on iPad
+to implement iPad specific UI code.
+                  
+</dd>
+        <dt id="isReady" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/isReady.html">isReady</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+                  </dt>
+        <dd>
+          Checks if <a href="services_context_app_context/AppContext-class.html">AppContext</a> is fully initialized
+and ready to use.
+                  
+</dd>
+        <dt id="shouInitialize" class="callable">
+          <span class="name"><a href="services_context_app_context/AppContext/shouInitialize.html">shouInitialize</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+                  </dt>
+        <dd>
+          Returns true if <a href="services_context_app_context/AppContext-class.html">AppContext</a> has not been initialized <a href="services_context_app_context/AppContext/shouInitialize.html">[...]</a>
+                  
+</dd>
+        <dt id="addListener" class="callable inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/addListener.html">addListener</a></span><span class="signature">(<wbr><span class="parameter" id="addListener-param-listener"><span class="type-annotation">VoidCallback</span> <span class="parameter-name">listener</span></span>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Register a closure to be called when the object changes. <a href="services_context_app_context/AppContext/addListener.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="dispose" class="callable inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/dispose.html">dispose</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Discards any resources used by the object. After this is called, the
+object is not in a usable state and should be discarded (calls to
+<a href="services_theme_base_theme_service/AppTheme/addListener.html">addListener</a> and <a href="services_theme_base_theme_service/AppTheme/removeListener.html">removeListener</a> will throw after the object is
+disposed). <a href="services_context_app_context/AppContext/dispose.html">[...]</a>
+                  <div class="features">@mustCallSuper, inherited</div>
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation">Invocation</span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="services_context_app_context/AppContext/noSuchMethod.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="notifyListeners" class="callable inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/notifyListeners.html">notifyListeners</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Call all the registered listeners. <a href="services_context_app_context/AppContext/notifyListeners.html">[...]</a>
+                  <div class="features">@protected, @visibleForTesting, inherited</div>
+</dd>
+        <dt id="removeListener" class="callable inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/removeListener.html">removeListener</a></span><span class="signature">(<wbr><span class="parameter" id="removeListener-param-listener"><span class="type-annotation">VoidCallback</span> <span class="parameter-name">listener</span></span>)
+            <span class="returntype parameter">&#8594; void</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Remove a previously registered closure from the list of closures that are
+notified when the object changes. <a href="services_context_app_context/AppContext/removeListener.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toString" class="callable inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/toString.html">toString</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; String</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Returns a string representation of this object.
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor inherited" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+          <span class="name"><a href="services_context_app_context/AppContext/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation">dynamic</span> <span class="parameter-name">other</span></span>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          The equality operator. <a href="services_context_app_context/AppContext/operator_equals.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <ol>
+    
+      <li class="section-title"><a href="services_context_app_context/AppContext-class.html#constructors">Constructors</a></li>
+      <li><a href="services_context_app_context/AppContext/AppContext.html">AppContext</a></li>
+    
+      <li class="section-title">
+        <a href="services_context_app_context/AppContext-class.html#instance-properties">Properties</a>
+      </li>
+      <li><a href="services_context_app_context/AppContext/appRunningState.html">appRunningState</a></li>
+      <li><a href="services_context_app_context/AppContext/loadingState.html">loadingState</a></li>
+      <li><a href="services_context_app_context/AppContext/platformState.html">platformState</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/hashCode.html">hashCode</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/hasListeners.html">hasListeners</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/runtimeType.html">runtimeType</a></li>
+    
+      <li class="section-title"><a href="services_context_app_context/AppContext-class.html#instance-methods">Methods</a></li>
+      <li><a href="services_context_app_context/AppContext/configContext.html">configContext</a></li>
+      <li><a href="services_context_app_context/AppContext/configProdContext.html">configProdContext</a></li>
+      <li><a href="services_context_app_context/AppContext/configUnittestContext.html">configUnittestContext</a></li>
+      <li><a href="services_context_app_context/AppContext/getAppRunningState.html">getAppRunningState</a></li>
+      <li><a href="services_context_app_context/AppContext/initializeContext.html">initializeContext</a></li>
+      <li><a href="services_context_app_context/AppContext/initializeDeviceType.html">initializeDeviceType</a></li>
+      <li><a href="services_context_app_context/AppContext/isIos.html">isIos</a></li>
+      <li><a href="services_context_app_context/AppContext/isIpad.html">isIpad</a></li>
+      <li><a href="services_context_app_context/AppContext/isReady.html">isReady</a></li>
+      <li><a href="services_context_app_context/AppContext/shouInitialize.html">shouInitialize</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/addListener.html">addListener</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/dispose.html">dispose</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/noSuchMethod.html">noSuchMethod</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/notifyListeners.html">notifyListeners</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/removeListener.html">removeListener</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/toString.html">toString</a></li>
+    
+      <li class="section-title inherited"><a href="services_context_app_context/AppContext-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="services_context_app_context/AppContext/operator_equals.html">operator ==</a></li>
+    
+    
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    photochatapp
+      1.0.7+16
+  </span>
+
+  <!-- footer-text placeholder -->
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+<!-- footer placeholder -->
+
+</body>
+
+</html>

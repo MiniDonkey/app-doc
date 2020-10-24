@@ -1,0 +1,315 @@
+[
+  {
+    "name": "PhotoChatApp",
+    "qualifiedName": "app.PhotoChatApp",
+    "href": "app_app/PhotoChatApp-class.html",
+    "type": "class",
+    "categories": [
+      "App Config"
+    ]
+  },
+  {
+    "name": "AppContext",
+    "qualifiedName": "app_context.AppContext",
+    "href": "services_context_app_context/AppContext-class.html",
+    "type": "class",
+    "categories": [
+      "Services"
+    ]
+  },
+  {
+    "name": "AppRunningState",
+    "qualifiedName": "app_running_states.AppRunningState",
+    "href": "services_states_app_running_states/AppRunningState-class.html",
+    "type": "enum",
+    "categories": [
+      "Services: States"
+    ]
+  },
+  {
+    "name": "SendScreenCameraImageBtn",
+    "qualifiedName": "camera_img_btn.SendScreenCameraImageBtn",
+    "href": "screens_send_camera_img_btn/SendScreenCameraImageBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Send"
+    ]
+  },
+  {
+    "name": "CapacityUsageRequest",
+    "qualifiedName": "capacity_usage_request.CapacityUsageRequest",
+    "href": "services_requests_capacity_usage_request/CapacityUsageRequest-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Requests"
+    ]
+  },
+  {
+    "name": "HomeScreenContribBtn",
+    "qualifiedName": "contrib_btn.HomeScreenContribBtn",
+    "href": "screens_home_btns_contrib_btn/HomeScreenContribBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Home"
+    ]
+  },
+  {
+    "name": "ContributeScreen",
+    "qualifiedName": "contribute_screen.ContributeScreen",
+    "href": "screens_contribute_contribute_screen/ContributeScreen-class.html",
+    "type": "class",
+    "categories": [
+      "Screens",
+      "Screens: Contribute"
+    ]
+  },
+  {
+    "name": "DecodeRequest",
+    "qualifiedName": "decode_request.DecodeRequest",
+    "href": "services_requests_decode_request/DecodeRequest-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Requests"
+    ]
+  },
+  {
+    "name": "DecodeResponse",
+    "qualifiedName": "decode_response.DecodeResponse",
+    "href": "services_responses_decode_response/DecodeResponse-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Responses"
+    ]
+  },
+  {
+    "name": "DecodingResultScreen",
+    "qualifiedName": "decoding_result_screen.DecodingResultScreen",
+    "href": "screens_decoded_decoding_result_screen/DecodingResultScreen-class.html",
+    "type": "class",
+    "categories": [
+      "Screens",
+      "Screens: Decode Result"
+    ]
+  },
+  {
+    "name": "HomeScreenDonkeyLogo",
+    "qualifiedName": "donkey_logo.HomeScreenDonkeyLogo",
+    "href": "screens_home_logos_donkey_logo/HomeScreenDonkeyLogo-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Home"
+    ]
+  },
+  {
+    "name": "EncodeRequest",
+    "qualifiedName": "encode_request.EncodeRequest",
+    "href": "services_requests_encode_request/EncodeRequest-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Requests"
+    ]
+  },
+  {
+    "name": "EncodeResponse",
+    "qualifiedName": "encode_response.EncodeResponse",
+    "href": "services_responses_encode_response/EncodeResponse-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Responses"
+    ]
+  },
+  {
+    "name": "DecodeResultScreenRenderRequest",
+    "qualifiedName": "encode_result_screen_render_request.DecodeResultScreenRenderRequest",
+    "href": "services_requests_encode_result_screen_render_request/DecodeResultScreenRenderRequest-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Requests"
+    ]
+  },
+  {
+    "name": "DecodeResultState",
+    "qualifiedName": "encode_result_states.DecodeResultState",
+    "href": "services_states_encode_result_states/DecodeResultState-class.html",
+    "type": "enum",
+    "categories": [
+      "Services: States"
+    ]
+  },
+  {
+    "name": "EncodingResultScreen",
+    "qualifiedName": "encoding_result_screen.EncodingResultScreen",
+    "href": "screens_encoded_encoding_result_screen/EncodingResultScreen-class.html",
+    "type": "class",
+    "categories": [
+      "Screens",
+      "Screens: Encode Result"
+    ]
+  },
+  {
+    "name": "ReceiveScreenGallertyImageBtn",
+    "qualifiedName": "gallery_image_btn.ReceiveScreenGallertyImageBtn",
+    "href": "screens_receive_gallery_image_btn/ReceiveScreenGallertyImageBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Receive"
+    ]
+  },
+  {
+    "name": "SendScreenGalleryImageBtn",
+    "qualifiedName": "gallery_img_btn.SendScreenGalleryImageBtn",
+    "href": "screens_send_gallery_img_btn/SendScreenGalleryImageBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Send"
+    ]
+  },
+  {
+    "name": "HomeScreen",
+    "qualifiedName": "home_screen.HomeScreen",
+    "href": "screens_home_home_screen/HomeScreen-class.html",
+    "type": "class",
+    "categories": [
+      "Screens",
+      "Screens: Home"
+    ]
+  },
+  {
+    "name": "AppLocalizations",
+    "qualifiedName": "i18n.AppLocalizations",
+    "href": "services_i18n_i18n/AppLocalizations-class.html",
+    "type": "class",
+    "categories": [
+      "i18n",
+      "i18n: Messages"
+    ]
+  },
+  {
+    "name": "SendScreenImageReview",
+    "qualifiedName": "image_preview.SendScreenImageReview",
+    "href": "screens_send_image_preview/SendScreenImageReview-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Send"
+    ]
+  },
+  {
+    "name": "LoadingState",
+    "qualifiedName": "loading_states.LoadingState",
+    "href": "services_states_loading_states/LoadingState-class.html",
+    "type": "enum",
+    "categories": [
+      "Services: States"
+    ]
+  },
+  {
+    "name": "main",
+    "qualifiedName": "main.main",
+    "href": "main/main.html",
+    "type": "function",
+    "categories": [
+      "App"
+    ]
+  },
+  {
+    "name": "HomeScreenMessageLogo",
+    "qualifiedName": "message_logo.HomeScreenMessageLogo",
+    "href": "screens_home_logos_message_logo/HomeScreenMessageLogo-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Home"
+    ]
+  },
+  {
+    "name": "PlatformState",
+    "qualifiedName": "platform_states.PlatformState",
+    "href": "services_states_platform_states/PlatformState-class.html",
+    "type": "enum",
+    "categories": [
+      "Services: States"
+    ]
+  },
+  {
+    "name": "SendScreenRandomWebImageBtn",
+    "qualifiedName": "random_web_img_btn.SendScreenRandomWebImageBtn",
+    "href": "screens_send_random_web_img_btn/SendScreenRandomWebImageBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Send"
+    ]
+  },
+  {
+    "name": "ReceiveScreen",
+    "qualifiedName": "receive_screen.ReceiveScreen",
+    "href": "screens_receive_receive_screen/ReceiveScreen-class.html",
+    "type": "class",
+    "categories": [
+      "Screens",
+      "Screens: Receive"
+    ]
+  },
+  {
+    "name": "SendScreen",
+    "qualifiedName": "send_screen.SendScreen",
+    "href": "screens_send_send_screen/SendScreen-class.html",
+    "type": "class",
+    "categories": [
+      "Screens",
+      "Screens: Send"
+    ]
+  },
+  {
+    "name": "HomeScreenStartDecodeBtn",
+    "qualifiedName": "start_decode_btn.HomeScreenStartDecodeBtn",
+    "href": "screens_home_btns_start_decode_btn/HomeScreenStartDecodeBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Home"
+    ]
+  },
+  {
+    "name": "HomeScreenStartEncodeBtn",
+    "qualifiedName": "start_encode_btn.HomeScreenStartEncodeBtn",
+    "href": "screens_home_btns_start_encode_btn/HomeScreenStartEncodeBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Home"
+    ]
+  },
+  {
+    "name": "ReceiveScreenSubmitDecodeBtn",
+    "qualifiedName": "submit_decode_btn.ReceiveScreenSubmitDecodeBtn",
+    "href": "screens_receive_submit_decode_btn/ReceiveScreenSubmitDecodeBtn-class.html",
+    "type": "class",
+    "categories": [
+      "Screens: Receive"
+    ]
+  },
+  {
+    "name": "theme",
+    "qualifiedName": "theme.theme",
+    "href": "app_theme/theme.html",
+    "type": "top-level property",
+    "categories": [
+      "App Config"
+    ]
+  },
+  {
+    "name": "UploadedImageConversionRequest",
+    "qualifiedName": "uploaded_img_conversion_request.UploadedImageConversionRequest",
+    "href": "services_requests_uploaded_img_conversion_request/UploadedImageConversionRequest-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Requests"
+    ]
+  },
+  {
+    "name": "UploadedImageConversionResponse",
+    "qualifiedName": "uploaded_img_conversion_response.UploadedImageConversionResponse",
+    "href": "services_responses_uploaded_img_conversion_response/UploadedImageConversionResponse-class.html",
+    "type": "class",
+    "categories": [
+      "Services: Responses"
+    ]
+  }
+]
